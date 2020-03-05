@@ -1,0 +1,59 @@
+
+
+@font-face{
+  font-family: Lato-Regular;
+src: url(lato-regular-webfont.woff);
+}
+
+*{
+
+  font-family: Lato-Regular;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Pacifico', cursive;
+}
+
+@font-face{
+  font-family: ekhm;
+src: url(dmseriftext-regular-webfont.woff);
+}
+
+.section--bottom p{
+  font-family: ekhm;
+}
+
+:root {
+  --h1: 3rem;
+  --h2: 2.5rem;
+  --container-width: 1000px;
+}
+
+body {
+  max-width: var(--container-width);
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: orangered;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+  margin-top: 0;
+}
+
+section, header, article {
+  margin-bottom: 3rem;
+}
+
+.section--bottom {
+  background: #eee;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
